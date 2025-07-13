@@ -1,27 +1,24 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
 	<link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
 	<!-- the entire body must be written by student -->
-	<form>
-		<caption>Feedback Form</caption>
-		<label>Name</label>
+	<h2>Feedback Form</h2>
+	<form method="post">
+		<label for="name">Name</label>
 		<input id="name" type="text" minlength="3" maxlength="50" required><br>
-		<label>Portfolio</label>
+
+		<label for="portfolio">Portfolio</label>
 		<input id="portfolio" type="url" required><br>
-		<label>Favorite Color</label>
+
+		<label for="favColor">Favorite Color</label>
 		<input id="favColor" type="color"><br>
-		<label>Likeness</label>
+
+		<label for="likeness">Likeness</label>
 		<input id="likeness" type="range" min="1" max="100">
 	</form>
-    <script type="text/javascript" src="./script.js">
-</script>
-
+	<script type="text/javascript" src="./script.js"></script>
 </body>
-
 </html>
